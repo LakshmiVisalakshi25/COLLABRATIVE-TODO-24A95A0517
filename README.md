@@ -1,16 +1,76 @@
-# React + Vite
+# COLLABRATIVE-TODO-24A95A0517
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich, collaborative Todo application built with **React**, **Tailwind CSS**, and **Vite**. This project demonstrates advanced state management using the **React Context API**, optimized rendering, and per-user task management using `localStorage`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Table of Contents**
 
-## React Compiler
+- [Overview](#overview)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+- [Context Architecture](#context-architecture)  
+- [Usage](#usage)  
+- [Performance & Optimizations](#performance--optimizations)  
+- [Future Improvements](#future-improvements)  
+- [License](#license)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## **Overview**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This application allows multiple users to manage their own tasks and todo lists. It demonstrates:
+
+- Complex state management with **React Context API**  
+- Optimistic updates for instant UI feedback  
+- Fully responsive UI using **Tailwind CSS**  
+- Theme switching (light/dark mode)  
+- Nested tasks and tagging  
+- Simulated real-time collaboration (within the browser)  
+
+---
+
+## **Features**
+
+### **User Authentication**
+- Mock login/logout system  
+- Protected routes; unauthenticated users cannot access dashboard  
+- User-specific task storage
+
+### **Task Management**
+- Create, update, delete todo lists  
+- Add, edit, complete, and delete tasks  
+- Support for nested subtasks  
+- Assign tags or categories to tasks  
+
+### **Collaboration**
+- Simulated collaboration using **per-user storage**  
+- Global activity log (optional: filtered per user)  
+
+---
+
+## **Tech Stack**
+
+- **Frontend:** React 18, Vite  
+- **State Management:** React Context API, useReducer, custom hooks  
+- **Styling:** Tailwind CSS  
+- **Icons:** Heroicons  
+- **Storage:** Browser `localStorage` (per-user)  
+
+---
+
+## **Getting Started**
+
+### **Installation**
+
+```bash
+# Clone repository
+git clone <repository-url>
+cd collaborative-todo-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
