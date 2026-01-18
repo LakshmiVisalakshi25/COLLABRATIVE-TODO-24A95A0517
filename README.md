@@ -4,19 +4,7 @@ A feature-rich, collaborative Todo application built with **React**, **Tailwind 
 
 ---
 
-## **Table of Contents**
 
-- [Overview](#overview)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-- [Context Architecture](#context-architecture)  
-- [Usage](#usage)  
-- [Performance & Optimizations](#performance--optimizations)  
-- [Future Improvements](#future-improvements)  
-- [License](#license)
-
----
 
 ## **Overview**
 
